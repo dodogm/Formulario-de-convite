@@ -4,7 +4,7 @@ import bgPng from "../assets/Background.png"
 
 export function Brand() {
     return(
-        <aside className="h-182 w-100 rounded-xl overflow-hidden">
+        <aside className="h-182 w-100 rounded-xl ">
             
           
         <div className="h-full w-full bg-contain bg-center bg-no-repeat  p-6  "
@@ -19,9 +19,6 @@ export function Brand() {
              <h1 className="text-pink font-logo text-logo textlogo"> Festivite  </h1> 
              <p className="text-body-md text-text-heading">Crie um convite digital para o seu evento</p>
             </div>
-           
-
-            
         </div>
         </aside>
     )

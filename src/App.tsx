@@ -4,13 +4,13 @@ import { Invite } from "./components/Invite";
 
 export default function App() {
 return(
-    <main className="bg-shape-background w-full min-h-dvh">
-    <div className="m-auto flex gap-5 p-5  max-w-7xl h-200 ">
+    <main className="bg-shape-background" >
+    <div className="m-auto flex gap-5 p-5 max-w-7xl  ">
 
-        <div>
+        <div className=" sticky  top-5 self-start">
         <Brand/>
         </div>
-
+"
         <div>
         <Invite/>
         </div>
